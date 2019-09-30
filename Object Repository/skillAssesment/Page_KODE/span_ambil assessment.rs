@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_logout</name>
+   <name>span_ambil assessment</name>
    <tag></tag>
-   <elementGuidId>e303796e-a850-489f-a4e6-58b791b0ce8a</elementGuidId>
+   <elementGuidId>f08c0d67-e0df-4d3d-989c-d41122903e98</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='page-CatalogPage']/div/div/div[2]/div[2]/div[2]/div/div[3]/span</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//span[(text() = 'logout' or . = 'logout')]</value>
+         <value>//div[@id='root']/div/div/div/div[2]/div/div/button/div[2]/span</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,62 +24,62 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>css-1rrk0zy</value>
+      <value>fw6 self-center css-10v6l23</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>logout</value>
+      <value>ambil assessment</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;page-CatalogPage&quot;)/div[@class=&quot;flex flex-column&quot;]/div[@class=&quot;css-6moz6r&quot;]/div[@class=&quot;css-1qp5j5e&quot;]/div[@class=&quot;css-5jobrw&quot;]/div[@class=&quot;css-4fxz6i&quot;]/div[@class=&quot;css-ke76o6&quot;]/div[@class=&quot;css-1ayhu8g&quot;]/span[@class=&quot;css-1rrk0zy&quot;]</value>
+      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;flex flex-column justify-start align-center&quot;]/div[1]/div[@class=&quot;css-1j8e71f&quot;]/div[@class=&quot;css-c9l9ks&quot;]/div[@class=&quot;css-196grck&quot;]/button[@class=&quot;flex flex-row justify-between align-center css-mm7cwb&quot;]/div[@class=&quot;self-center flex flex-column&quot;]/span[@class=&quot;fw6 self-center css-10v6l23&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='page-CatalogPage']/div/div/div[2]/div[2]/div[2]/div/div[3]/span</value>
+      <value>//div[@id='root']/div/div/div/div[2]/div/div/button/div[2]/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bookmark Saya'])[1]/following::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mulai Menyimpan Data dengan Database'])[1]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pengaturan Akun'])[1]/following::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='skill assessment'])[1]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Course Baru Hanya Untuk Kamu'])[1]/preceding::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='detail assessment'])[1]/preceding::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kelas Umum'])[1]/preceding::span[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='durasi test'])[1]/preceding::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/span</value>
+      <value>//div[2]/span</value>
    </webElementXpaths>
 </WebElementEntity>
