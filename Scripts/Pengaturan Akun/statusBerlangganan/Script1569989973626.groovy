@@ -19,13 +19,13 @@ WebUI.navigateToUrl('https://kode.id/')
 
 WebUI.click(findTestObject('Login Google/Page_KODE/a_Masuk'))
 
-WebUI.setText(findTestObject('Page_Login ke KODE/input_Alamat Email_email'), 'hary-test-prod-satu@kode.id')
+WebUI.setText(findTestObject('KODE-LOGIN-BANGET/input_Alamat Email_email'), 'hary-test-prod-satu@kode.id')
 
 WebUI.delay(5)
 
-WebUI.setEncryptedText(findTestObject('Page_Login ke KODE/input_Password_password'), 'mgeWl5n8VGlyGxwBW71nHw==')
+WebUI.setEncryptedText(findTestObject('KODE-LOGIN-BANGET/input_Password_password'), 'mgeWl5n8VGlyGxwBW71nHw==')
 
-WebUI.click(findTestObject('Page_Login ke KODE/button_Masuk'))
+WebUI.click(findTestObject('KODE-LOGIN-BANGET/button_Masuk'))
 
 WebUI.click(findTestObject('Bookmarks/Page_Katalog Course - KODE/div_hary'))
 

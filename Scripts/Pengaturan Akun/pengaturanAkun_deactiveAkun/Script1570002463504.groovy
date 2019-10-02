@@ -15,15 +15,35 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://kode.id/login')
+WebUI.navigateToUrl('https://kode.id/')
 
-WebUI.setText(findTestObject('KODE-LOGIN-BANGET/input_Alamat Email_email'), 'hary-test-prod-satu@kode.id')
+WebUI.click(findTestObject('Login Facebook(new)/Page_KODE - Cara Mudah Belajar Online Bersama KODE/a_Masuk'))
+
+WebUI.setText(findTestObject('fogot password/Page_Reset Password - KODE/input_Alamat Email_email'), 'hary-test-prod-dua@kode.id')
 
 WebUI.delay(5)
 
-WebUI.setEncryptedText(findTestObject('KODE-LOGIN-BANGET/input_Password_password'), 'mgeWl5n8VGlyGxwBW71nHw==')
+WebUI.setEncryptedText(findTestObject('KODE-LOGIN-BANGET/input_Password_password'), 'mgeWl5n8VGlfjL9p+Mp3qQ==')
 
 WebUI.delay(5)
 
 WebUI.click(findTestObject('KODE-LOGIN-BANGET/button_Masuk'))
+
+WebUI.click(findTestObject('Bookmarks/Page_Katalog Course - KODE/div_hary'))
+
+WebUI.click(findTestObject('Ubah Password/Page_Katalog Course - KODE/a_Pengaturan Akun'))
+
+WebUI.click(findTestObject('DataPribadi-DeaktivasiAkun/Page_Subscription Page - KODE/span_Data Pribadi'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('DataPribadi-DeaktivasiAkun/Page_Profil Saya - KODE/button_Deaktivasi Akun Saya'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('DataPribadi-DeaktivasiAkun/Page_Profil Saya - KODE/button_Ya'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('DataPribadi-DeaktivasiAkun/Page_KODE/button_Kembali ke Beranda'))
 

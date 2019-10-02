@@ -17,13 +17,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://kode.id/login')
 
-WebUI.setText(findTestObject('Page_Login ke KODE/input_Alamat Email_email'), 'hary-test-prod-satu@kode.id')
+WebUI.setText(findTestObject('KODE-LOGIN-BANGET/input_Alamat Email_email'), 'hary-test-prod-satu@kode.id')
 
 WebUI.delay(5)
 
-WebUI.setEncryptedText(findTestObject('Page_Login ke KODE/input_Password_password'), 'mgeWl5n8VGnVYhi5qxnFpw==')
+WebUI.setEncryptedText(findTestObject('KODE-LOGIN-BANGET/input_Password_password'), 'mgeWl5n8VGnVYhi5qxnFpw==')
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Page_Login ke KODE/button_Masuk'))
+WebUI.click(findTestObject('KODE-LOGIN-BANGET/button_Masuk'))
 
