@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Bookmark Saya</name>
+   <name>button_marketing</name>
    <tag></tag>
-   <elementGuidId>1d75f5ca-6514-467f-aad0-27fb16f600ab</elementGuidId>
+   <elementGuidId>b46ebdc8-dbe5-4b47-958c-bc9c2c072b08</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[@href = '/bookmarks' and (text() = 'Bookmark Saya' or . = 'Bookmark Saya')]</value>
+         <value>id(&quot;page-ChangeProfilePage&quot;)/div[@class=&quot;flex flex-column&quot;]/div[@class=&quot;css-1r6cy3i&quot;]/div[@class=&quot;flex flex-column w-100 flex w-100 css-mglkre&quot;]/div[@class=&quot;flex flex-column pt5 pb4 pr4&quot;]/div[1]/div[@class=&quot;w-100&quot;]/div[@class=&quot;pt2 pb4 flex flex-column w-100 css-6k51kr&quot;]/form[1]/div[@class=&quot;flex flex-column ph5 mv4&quot;]/div[@class=&quot;mt3 flex flex-row flex-wrap&quot;]/button[@class=&quot;mr2 mb2 ttc css-1v79b7o&quot;][count(. | //button[@type = 'button' and (text() = 'marketing' or . = 'marketing')]) = count(//button[@type = 'button' and (text() = 'marketing' or . = 'marketing')])]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='page-CatalogPage']/div/div/div[2]/div[2]/div[2]/div/div[2]/a[2]</value>
+         <value>(//button[@type='button'])[4]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,97 +21,83 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>css-1e8z58b</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-current</name>
-      <type>Main</type>
-      <value>false</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>/bookmarks</value>
+      <value>mr2 mb2 ttc css-1v79b7o</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Bookmark Saya</value>
+      <value>marketing</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;page-CatalogPage&quot;)/div[@class=&quot;flex flex-column&quot;]/div[@class=&quot;css-6moz6r&quot;]/div[@class=&quot;css-1qp5j5e&quot;]/div[@class=&quot;css-5jobrw&quot;]/div[@class=&quot;css-4fxz6i&quot;]/div[@class=&quot;css-ke76o6&quot;]/div[@class=&quot;css-vnyvoi&quot;]/a[@class=&quot;css-1e8z58b&quot;]</value>
+      <value>id(&quot;page-ChangeProfilePage&quot;)/div[@class=&quot;flex flex-column&quot;]/div[@class=&quot;css-1r6cy3i&quot;]/div[@class=&quot;flex flex-column w-100 flex w-100 css-mglkre&quot;]/div[@class=&quot;flex flex-column pt5 pb4 pr4&quot;]/div[1]/div[@class=&quot;w-100&quot;]/div[@class=&quot;pt2 pb4 flex flex-column w-100 css-6k51kr&quot;]/form[1]/div[@class=&quot;flex flex-column ph5 mv4&quot;]/div[@class=&quot;mt3 flex flex-row flex-wrap&quot;]/button[@class=&quot;mr2 mb2 ttc css-1v79b7o&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='page-CatalogPage']/div/div/div[2]/div[2]/div[2]/div/div[2]/a[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <type>Main</type>
-      <value>//a[contains(text(),'Bookmark Saya')]</value>
+      <value>//div[@id='page-ChangeProfilePage']/div/div[2]/div[2]/div/div/div/div/form/div[7]/div/button[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pengaturan Akun'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='personal development'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='pribadi'])[1]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bidang mana yang kamu minati?'])[1]/following::button[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='logout'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='business'])[1]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Course Baru Hanya Untuk Kamu'])[1]/preceding::a[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <type>Main</type>
-      <value>//a[contains(@href, '/bookmarks')]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='development'])[1]/preceding::button[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/a[2]</value>
+      <value>//button[2]</value>
    </webElementXpaths>
 </WebElementEntity>

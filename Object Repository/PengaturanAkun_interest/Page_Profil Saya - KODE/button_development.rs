@@ -1,103 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_home</name>
+   <name>button_development</name>
    <tag></tag>
-   <elementGuidId>003876fa-43b7-4a2a-8175-62cd531e8808</elementGuidId>
+   <elementGuidId>9f5dd469-4ec0-4824-b365-28297ac67778</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//a[@href = '/home' and (text() = 'home' or . = 'home')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//div[@id='page-CatalogPage']/div/div/div/a[2]</value>
+         <value>(//button[@type='button'])[6]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>css-1e5753</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-current</name>
-      <type>Main</type>
-      <value>false</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>/home</value>
+      <value>mr2 mb2 ttc css-1v79b7o</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>home</value>
+      <value>development</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;page-CatalogPage&quot;)/div[@class=&quot;flex flex-column&quot;]/div[@class=&quot;css-6moz6r&quot;]/div[@class=&quot;css-64noit&quot;]/a[@class=&quot;css-1e5753&quot;]</value>
+      <value>id(&quot;page-ChangeProfilePage&quot;)/div[@class=&quot;flex flex-column&quot;]/div[@class=&quot;css-1r6cy3i&quot;]/div[@class=&quot;flex flex-column w-100 flex w-100 css-mglkre&quot;]/div[@class=&quot;flex flex-column pt5 pb4 pr4&quot;]/div[1]/div[@class=&quot;w-100&quot;]/div[@class=&quot;pt2 pb4 flex flex-column w-100 css-6k51kr&quot;]/form[1]/div[@class=&quot;flex flex-column ph5 mv4&quot;]/div[@class=&quot;mt3 flex flex-row flex-wrap&quot;]/button[@class=&quot;mr2 mb2 ttc css-1v79b7o&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[6]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='page-CatalogPage']/div/div/div/a[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <type>Main</type>
-      <value>//a[contains(text(),'home')]</value>
+      <value>//div[@id='page-ChangeProfilePage']/div/div[2]/div[2]/div/div/div/div/form/div[7]/div/button[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='catalog'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='business'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Masukkan kata pencarian dengan minimal tiga karakter.'])[1]/preceding::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='marketing'])[1]/following::button[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '/home')])[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Simpan Perubahan'])[1]/preceding::button[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Deaktivasi Akun Saya'])[1]/preceding::button[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//a[2]</value>
+      <value>//button[4]</value>
    </webElementXpaths>
 </WebElementEntity>

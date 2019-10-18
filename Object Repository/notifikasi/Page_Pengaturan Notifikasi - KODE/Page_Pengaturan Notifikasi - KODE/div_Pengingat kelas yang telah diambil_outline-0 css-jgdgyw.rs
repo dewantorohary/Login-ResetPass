@@ -1,103 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_home</name>
+   <name>div_Pengingat kelas yang telah diambil_outline-0 css-jgdgyw</name>
    <tag></tag>
-   <elementGuidId>003876fa-43b7-4a2a-8175-62cd531e8808</elementGuidId>
+   <elementGuidId>b2d212e7-5f86-4344-8e13-dfc3f3184c31</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//a[@href = '/home' and (text() = 'home' or . = 'home')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//div[@id='page-CatalogPage']/div/div/div/a[2]</value>
+         <value>//div[@id='page-ChangeNotificationPage']/div/div[2]/div[2]/div/div/div/div[2]/div/table/tbody/tr[4]/td[2]/span/div</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>css-1e5753</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-current</name>
-      <type>Main</type>
-      <value>false</value>
+      <value>outline-0 css-jgdgyw</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>/home</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>home</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;page-CatalogPage&quot;)/div[@class=&quot;flex flex-column&quot;]/div[@class=&quot;css-6moz6r&quot;]/div[@class=&quot;css-64noit&quot;]/a[@class=&quot;css-1e5753&quot;]</value>
+      <value>id(&quot;page-ChangeNotificationPage&quot;)/div[@class=&quot;flex flex-column&quot;]/div[@class=&quot;css-1r6cy3i&quot;]/div[@class=&quot;flex flex-column w-100 flex w-100 css-mglkre&quot;]/div[1]/div[@class=&quot;w-100 pv5 pl5-ns&quot;]/div[@class=&quot;flex flex-column ph5-ns ph2 pt2 pb4 w-100 css-6k51kr&quot;]/div[@class=&quot;mt4-ns mt3 ph4-ns ph3 w-100&quot;]/div[1]/table[@class=&quot;f6 w-100 center css-t8mv2l&quot;]/tbody[@class=&quot;lh-copy&quot;]/tr[@class=&quot;css-1akth7c&quot;]/td[@class=&quot;pa3 bb b--near-white&quot;]/span[@class=&quot;css-10v6l23&quot;]/div[@class=&quot;outline-0 css-jgdgyw&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='page-CatalogPage']/div/div/div/a[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <type>Main</type>
-      <value>//a[contains(text(),'home')]</value>
+      <value>//div[@id='page-ChangeNotificationPage']/div/div[2]/div[2]/div/div/div/div[2]/div/table/tbody/tr[4]/td[2]/span/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='catalog'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pengingat kelas yang telah diambil'])[1]/following::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Masukkan kata pencarian dengan minimal tiga karakter.'])[1]/preceding::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pengingat kelas'])[1]/following::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '/home')])[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pemberitahuan Kelas'])[1]/preceding::div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pemberitahuan update kelas dari instruktur'])[1]/preceding::div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//a[2]</value>
+      <value>//tr[4]/td[2]/span/div</value>
    </webElementXpaths>
 </WebElementEntity>

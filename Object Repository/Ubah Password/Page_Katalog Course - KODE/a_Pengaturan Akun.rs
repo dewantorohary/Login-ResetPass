@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//div[@id='page-CatalogPage']/div/div/div[2]/div[2]/div[2]/div/div[2]/a</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = '/settings/personal-information' and (text() = 'Pengaturan Akun' or . = 'Pengaturan Akun')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

@@ -23,9 +23,7 @@ WebUI.setText(findTestObject('KODE-LOGIN-BANGET/input_Alamat Email_email'), 'har
 
 WebUI.delay(3)
 
-WebUI.setEncryptedText(findTestObject('KODE-LOGIN-BANGET/input_Password_password'), 'mgeWl5n8VGmbUqAJZWuO2w==')
-
-WebUI.delay(3)
+WebUI.setEncryptedText(findTestObject('KODE-LOGIN-BANGET/input_Password_password'), 'mgeWl5n8VGlyGxwBW71nHw==')
 
 WebUI.click(findTestObject('KODE-LOGIN-BANGET/button_Masuk'))
 
@@ -33,7 +31,7 @@ WebUI.scrollToElement(findTestObject('skillAssesment/Page_Katalog Course - KODE/
 
 WebUI.click(findTestObject('skillAssesment/Page_Katalog Course - KODE/span_Mulai Menyimpan Data dengan Database'))
 
-not_run: WebUI.delay(3)
+WebUI.delay(3)
 
 WebUI.click(findTestObject('skillAssesment/Page_KODE/span_ambil assessment'))
 
@@ -195,159 +193,159 @@ WebUI.click(findTestObject('skillAssesment/Page_KODE/button_Lanjut'))
 
 not_run: WebUI.delay(3)
 
-not_run: WebUI.click(findTestObject('skillAssesment/Page_KODE/div_AUPDATE'))
+WebUI.click(findTestObject('skillAssesment/Page_KODE/div_AUPDATE'))
 
 not_run: WebUI.delay(3)
 
-not_run: WebUI.click(findTestObject('skillAssesment/Page_KODE/button_submit jawaban'))
+WebUI.click(findTestObject('skillAssesment/Page_KODE/button_submit jawaban'))
 
 not_run: WebUI.delay(3)
 
-not_run: WebUI.click(findTestObject('skillAssesment/Page_KODE/button_Lanjut'))
+WebUI.click(findTestObject('skillAssesment/Page_KODE/button_Lanjut'))
 
 not_run: WebUI.delay(3)
 
-not_run: WebUI.click(findTestObject('skillAssesment/Page_KODE/div_BAOF'))
+WebUI.click(findTestObject('skillAssesment/Page_KODE/div_BAOF'))
 
 not_run: WebUI.delay(3)
 
-not_run: WebUI.click(findTestObject('skillAssesment/Page_KODE/button_submit jawaban'))
+WebUI.click(findTestObject('skillAssesment/Page_KODE/button_submit jawaban'))
 
 not_run: WebUI.delay(3)
 
-not_run: WebUI.click(findTestObject('skillAssesment/Page_KODE/button_Lanjut'))
+WebUI.click(findTestObject('skillAssesment/Page_KODE/button_Lanjut'))
 
 not_run: WebUI.delay(3)
 
-not_run: WebUI.click(findTestObject('skillAssesment/Page_KODE/div_BFirst Normal Form'))
+WebUI.click(findTestObject('skillAssesment/Page_KODE/div_BFirst Normal Form'))
 
 not_run: WebUI.delay(3)
 
-not_run: WebUI.click(findTestObject('skillAssesment/Page_KODE/button_submit jawaban'))
+WebUI.click(findTestObject('skillAssesment/Page_KODE/button_submit jawaban'))
 
 not_run: WebUI.delay(3)
 
-not_run: WebUI.click(findTestObject('skillAssesment/Page_KODE/button_Lanjut'))
+WebUI.click(findTestObject('skillAssesment/Page_KODE/button_Lanjut'))
 
 not_run: WebUI.delay(3)
 
-not_run: WebUI.click(findTestObject('skillAssesment/Page_KODE/div_BJOY'))
+WebUI.click(findTestObject('skillAssesment/Page_KODE/div_BJOY'))
 
 not_run: WebUI.delay(3)
 
-not_run: WebUI.click(findTestObject('skillAssesment/Page_KODE/button_submit jawaban'))
+WebUI.click(findTestObject('skillAssesment/Page_KODE/button_submit jawaban'))
 
 not_run: WebUI.delay(3)
 
-not_run: WebUI.click(findTestObject('skillAssesment/Page_KODE/button_Lanjut'))
+WebUI.click(findTestObject('skillAssesment/Page_KODE/button_Lanjut'))
 
 not_run: WebUI.delay(3)
 
-not_run: WebUI.click(findTestObject('skillAssesment/Page_KODE/div_BOne to One'))
+WebUI.click(findTestObject('skillAssesment/Page_KODE/div_BOne to One'))
 
 not_run: WebUI.delay(3)
 
-not_run: WebUI.click(findTestObject('skillAssesment/Page_KODE/button_submit jawaban'))
+WebUI.click(findTestObject('skillAssesment/Page_KODE/button_submit jawaban'))
 
 not_run: WebUI.delay(3)
 
-not_run: WebUI.click(findTestObject('skillAssesment/Page_KODE/button_Lanjut'))
+WebUI.click(findTestObject('skillAssesment/Page_KODE/button_Lanjut'))
 
 not_run: WebUI.delay(3)
 
-not_run: WebUI.click(findTestObject('skillAssesment/Page_KODE/div_BPAUSE'))
+WebUI.click(findTestObject('skillAssesment/Page_KODE/div_BPAUSE'))
 
 not_run: WebUI.delay(3)
 
-not_run: WebUI.click(findTestObject('skillAssesment/Page_KODE/button_submit jawaban'))
+WebUI.click(findTestObject('skillAssesment/Page_KODE/button_submit jawaban'))
 
 not_run: WebUI.delay(3)
 
-not_run: WebUI.click(findTestObject('skillAssesment/Page_KODE/button_Lanjut'))
+WebUI.click(findTestObject('skillAssesment/Page_KODE/button_Lanjut'))
 
 not_run: WebUI.delay(3)
 
-not_run: WebUI.click(findTestObject('skillAssesment/Page_KODE/div_BRBD'))
+WebUI.click(findTestObject('skillAssesment/Page_KODE/div_BRBD'))
 
 not_run: WebUI.delay(3)
 
-not_run: WebUI.click(findTestObject('skillAssesment/Page_KODE/button_submit jawaban'))
+WebUI.click(findTestObject('skillAssesment/Page_KODE/button_submit jawaban'))
 
 not_run: WebUI.delay(3)
 
-not_run: WebUI.click(findTestObject('skillAssesment/Page_KODE/button_Lanjut'))
+WebUI.click(findTestObject('skillAssesment/Page_KODE/button_Lanjut'))
 
 not_run: WebUI.delay(3)
 
-not_run: WebUI.click(findTestObject('skillAssesment/Page_KODE/div_BRBD'))
+WebUI.click(findTestObject('skillAssesment/Page_KODE/div_BRBD'))
 
 not_run: WebUI.delay(3)
 
-not_run: WebUI.click(findTestObject('skillAssesment/Page_KODE/button_submit jawaban'))
+WebUI.click(findTestObject('skillAssesment/Page_KODE/button_submit jawaban'))
 
 not_run: WebUI.delay(3)
 
-not_run: WebUI.click(findTestObject('skillAssesment/Page_KODE/button_Lanjut'))
+WebUI.click(findTestObject('skillAssesment/Page_KODE/button_Lanjut'))
 
 not_run: WebUI.delay(3)
 
-not_run: WebUI.click(findTestObject('skillAssesment/Page_KODE/div_Bredis-server'))
+WebUI.click(findTestObject('skillAssesment/Page_KODE/div_Bredis-server'))
 
 not_run: WebUI.delay(3)
 
-not_run: WebUI.click(findTestObject('skillAssesment/Page_KODE/button_submit jawaban'))
+WebUI.click(findTestObject('skillAssesment/Page_KODE/button_submit jawaban'))
 
 not_run: WebUI.delay(3)
 
-not_run: WebUI.click(findTestObject('skillAssesment/Page_KODE/button_Lanjut'))
+WebUI.click(findTestObject('skillAssesment/Page_KODE/button_Lanjut'))
 
 not_run: WebUI.delay(3)
 
-not_run: WebUI.click(findTestObject('skillAssesment/Page_KODE/div_BTipe data numerik'))
+WebUI.click(findTestObject('skillAssesment/Page_KODE/div_BTipe data numerik'))
 
 not_run: WebUI.delay(3)
 
-not_run: WebUI.click(findTestObject('skillAssesment/Page_KODE/button_submit jawaban'))
+WebUI.click(findTestObject('skillAssesment/Page_KODE/button_submit jawaban'))
 
 not_run: WebUI.delay(3)
 
-not_run: WebUI.click(findTestObject('skillAssesment/Page_KODE/button_Lanjut'))
+WebUI.click(findTestObject('skillAssesment/Page_KODE/button_Lanjut'))
 
 not_run: WebUI.delay(3)
 
-not_run: WebUI.click(findTestObject('skillAssesment/Page_KODE/div_CBegin In Rollback'))
+WebUI.click(findTestObject('skillAssesment/Page_KODE/div_CBegin In Rollback'))
 
 not_run: WebUI.delay(3)
 
-not_run: WebUI.click(findTestObject('skillAssesment/Page_KODE/button_submit jawaban'))
+WebUI.click(findTestObject('skillAssesment/Page_KODE/button_submit jawaban'))
 
 not_run: WebUI.delay(3)
 
-not_run: WebUI.click(findTestObject('skillAssesment/Page_KODE/button_Lanjut'))
+WebUI.click(findTestObject('skillAssesment/Page_KODE/button_Lanjut'))
 
 not_run: WebUI.delay(3)
 
-not_run: WebUI.click(findTestObject('skillAssesment/Page_KODE/div_CGET key value'))
+WebUI.click(findTestObject('skillAssesment/Page_KODE/div_CGET key value'))
 
 not_run: WebUI.delay(3)
 
-not_run: WebUI.click(findTestObject('skillAssesment/Page_KODE/button_submit jawaban'))
+WebUI.click(findTestObject('skillAssesment/Page_KODE/button_submit jawaban'))
 
 not_run: WebUI.delay(3)
 
-not_run: WebUI.click(findTestObject('skillAssesment/Page_KODE/button_Lanjut'))
+WebUI.click(findTestObject('skillAssesment/Page_KODE/button_Lanjut'))
 
 not_run: WebUI.delay(3)
 
-not_run: WebUI.click(findTestObject('skillAssesment/Page_KODE/div_CTrigger'))
+WebUI.click(findTestObject('skillAssesment/Page_KODE/div_CTrigger'))
 
 not_run: WebUI.delay(3)
 
-not_run: WebUI.click(findTestObject('skillAssesment/Page_KODE/button_submit jawaban'))
+WebUI.click(findTestObject('skillAssesment/Page_KODE/button_submit jawaban'))
 
 not_run: WebUI.delay(3)
 
-not_run: WebUI.click(findTestObject('skillAssesment/Page_KODE/button_Lanjut'))
+WebUI.click(findTestObject('skillAssesment/Page_KODE/button_Lanjut'))
 
 not_run: WebUI.delay(3)
 

@@ -1,103 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_home</name>
+   <name>span_Karena kamu menyukai Personal Development</name>
    <tag></tag>
-   <elementGuidId>003876fa-43b7-4a2a-8175-62cd531e8808</elementGuidId>
+   <elementGuidId>401e1ce3-3532-487a-883b-24d28da527b7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//a[@href = '/home' and (text() = 'home' or . = 'home')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//div[@id='page-CatalogPage']/div/div/div/a[2]</value>
+         <value>//div[@id='page-HomePage']/div/div[2]/div/div[2]/div/div/span</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>css-1e5753</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-current</name>
-      <type>Main</type>
-      <value>false</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>/home</value>
+      <value>dark2 pv2 fw6 mv2 ml3 css-1x4jqo1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>home</value>
+      <value>Karena kamu menyukai Personal Development</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;page-CatalogPage&quot;)/div[@class=&quot;flex flex-column&quot;]/div[@class=&quot;css-6moz6r&quot;]/div[@class=&quot;css-64noit&quot;]/a[@class=&quot;css-1e5753&quot;]</value>
+      <value>id(&quot;page-HomePage&quot;)/div[@class=&quot;flex flex-column&quot;]/div[@class=&quot;css-1xw5qc2&quot;]/div[@class=&quot;flex flex-column pb4 flex w-100 css-mglkre&quot;]/div[@class=&quot;pt4 flex flex-column flex w-100 css-e31zi6&quot;]/div[@class=&quot;pv0 w-100 overflow-hidden relative&quot;]/div[@class=&quot;flex flex-row justify-between items-center&quot;]/span[@class=&quot;dark2 pv2 fw6 mv2 ml3 css-1x4jqo1&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='page-CatalogPage']/div/div/div/a[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <type>Main</type>
-      <value>//a[contains(text(),'home')]</value>
+      <value>//div[@id='page-HomePage']/div/div[2]/div/div[2]/div/div/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='catalog'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Riza Fahmi'])[1]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Masukkan kata pencarian dengan minimal tiga karakter.'])[1]/preceding::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Membuat Single Page Application dengan React'])[1]/following::span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '/home')])[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Personal Develo...'])[1]/preceding::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dasar-Dasar Penyelesaian Masalah Rumit'])[1]/preceding::span[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//a[2]</value>
+      <value>//div[2]/div/div[2]/div/div/span</value>
    </webElementXpaths>
 </WebElementEntity>

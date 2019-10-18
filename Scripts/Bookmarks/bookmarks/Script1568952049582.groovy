@@ -31,13 +31,23 @@ WebUI.click(findTestObject('KODE-LOGIN-BANGET/button_Masuk'))
 
 WebUI.click(findTestObject('Bookmarks/Page_Katalog Course - KODE/i_Enrico Lukman_f3 pointer far fa-bookmark css-18tch9h'))
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Bookmarks/Page_Katalog Course - KODE/div_hary'))
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Bookmarks/Page_Katalog Course - KODE/a_Bookmark Saya'))
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Bookmarks/Page_Bookmarks Saya - KODE/i_Enrico Lukman_f3 pointer fa fa-bookmark css-1bvkbs5'))
 
+WebUI.delay(3)
+
 WebUI.click(findTestObject('Bookmarks/Page_Katalog Course - KODE/div_hary'))
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Login Facebook(new)/Page_Katalog Course - KODE/span_logout'))
 

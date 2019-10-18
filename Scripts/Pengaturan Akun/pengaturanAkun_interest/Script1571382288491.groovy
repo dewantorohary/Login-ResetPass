@@ -15,9 +15,9 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://kode.id/')
+WebUI.navigateToUrl('kode.id')
 
-WebUI.click(findTestObject('Login Google/Page_KODE/a_Masuk'))
+WebUI.click(findTestObject('Login Facebook(new)/Page_KODE - Cara Mudah Belajar Online Bersama KODE/a_Masuk'))
 
 WebUI.setText(findTestObject('KODE-LOGIN-BANGET/input_Alamat Email_email'), 'hary-test-prod-satu@kode.id')
 
@@ -25,7 +25,11 @@ WebUI.delay(5)
 
 WebUI.setEncryptedText(findTestObject('KODE-LOGIN-BANGET/input_Password_password'), 'mgeWl5n8VGlyGxwBW71nHw==')
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('KODE-LOGIN-BANGET/button_Masuk'))
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Bookmarks/Page_Katalog Course - KODE/div_hary'))
 
@@ -35,13 +39,32 @@ WebUI.click(findTestObject('Ubah Password/Page_Katalog Course - KODE/a_Pengatura
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Status Berlangganan/Page_Subscription Page - KODE/span_Status Berlangganan'))
+WebUI.scrollToElement(findTestObject('PengaturanAkun_interest/Page_Profil Saya - KODE/span_Bidang mana yang kamu minati'), 
+    0)
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Status Berlangganan/Page_Subscription Page - KODE/button_Lihat Riwayat Pembayaran'))
+WebUI.click(findTestObject('PengaturanAkun_interest/Page_Profil Saya - KODE/button_marketing'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('PengaturanAkun_interest/Page_Profil Saya - KODE/button_development'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('PengaturanAkun_interest/Page_Profil Saya - KODE/button_Simpan Perubahan'))
+
+WebUI.delay(8)
+
+WebUI.click(findTestObject('home/Page_Katalog Course - KODE/a_home'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Status Berlangganan/Page_Home - KODE/span_Kembali Ke Status Berlangganan'))
+WebUI.scrollToElement(findTestObject('PengaturanAkun_interest/Page_Home - KODE/span_Karena kamu menyukai Development'), 
+    0)
+
+WebUI.delay(5)
+
+WebUI.scrollToElement(findTestObject('PengaturanAkun_interest/Page_Home - KODE/span_Karena kamu menyukai Personal Development'), 
+    0)
 

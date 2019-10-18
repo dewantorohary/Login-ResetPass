@@ -25,17 +25,33 @@ WebUI.delay(3)
 
 WebUI.setEncryptedText(findTestObject('KODE-LOGIN-BANGET/input_Password_password'), 'mgeWl5n8VGlyGxwBW71nHw==')
 
-WebUI.delay(3)
-
 WebUI.click(findTestObject('KODE-LOGIN-BANGET/button_Masuk'))
 
 WebUI.delay(3)
 
 WebUI.click(findTestObject('Bookmarks/Page_Katalog Course - KODE/div_hary'))
 
+WebUI.delay(3)
+
 WebUI.click(findTestObject('Ubah Password/Page_Katalog Course - KODE/a_Pengaturan Akun'))
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('notifikasi/Page_Subscription Page - KODE/span_Atur Notifikasi'))
 
+WebUI.delay(3)
+
 WebUI.click(findTestObject('notifikasi/Page_Pengaturan Notifikasi - KODE/div_Promosi kelas baru yang direkomendasikan untuk kamu_outline-0 css-jgdgyw'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('notifikasi/Page_Pengaturan Notifikasi - KODE/Page_Pengaturan Notifikasi - KODE/div_Pemberitahuan update kelas dari instruktur_outline-0 css-jgdgyw'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('notifikasi/Page_Pengaturan Notifikasi - KODE/Page_Pengaturan Notifikasi - KODE/div_Pengingat kelas yang telah diambil_outline-0 css-jgdgyw'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('notifikasi/Page_Pengaturan Notifikasi - KODE/Page_Pengaturan Notifikasi - KODE/div_Pengumuman fitur baru di platform_outline-0 css-jgdgyw'))
 
